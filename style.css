@@ -1,0 +1,97 @@
+body {
+    margin:0;
+    padding:0;
+    background: maroon;
+}
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.buttonContainer{
+    display: none;
+    margin: auto;
+    width: 80vw;
+    height: 50px;
+    
+}
+.AllButton{
+    width: 100%;
+}
+.buttons{
+    height:40px;
+    width: 100%;
+    font-size: 150%;
+}
+.suduko {
+    border-style: none;
+    border-collapse: collapse;
+    margin:0;
+    padding:0;
+    width:100%;
+
+}
+tr{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+td{
+    width:10%;
+    padding:0;
+    margin: 0px;
+    justify-content: center;
+    border: 1px solid black;
+}
+input{
+    line-height:150%;
+    width:90%;
+    font-size: 200%;
+    text-align: center;
+    border-style: none;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield !important;
+}
+
+
+
+
+
+/* layout designing  */
+
+.row1{
+    border-top: 5px solid black;
+}.row4{
+    border-top: 5px solid black;
+}.row7{
+    border-top: 5px solid black;
+}
+.row9{
+    border-bottom:5px solid black ;
+}
+.col1{
+    border-left: 5px solid black;
+}
+.col4{
+    border-left: 5px solid black;
+}
+.col7{
+    border-left: 5px solid black;
+}
+.col9{
+    border-right:  5px solid black;
+}
